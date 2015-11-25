@@ -4,5 +4,8 @@ pydio:
     - 8943:443
   volumes:
     - ./pydio-core:/var/www/pydio-core
-    - ./pydio-data/files:/pydio-data/files
-    - ./pydio-data/files:/pydio-data/personal
+   # - ./pydio-data/files:/pydio-data/files
+   # - ./pydio-data/personal:/pydio-data/personal
+
+
+
